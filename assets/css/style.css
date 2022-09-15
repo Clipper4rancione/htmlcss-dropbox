@@ -3,3 +3,63 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* UTILITY */
+
+.debug{
+    background-color: rgba(255, 0, 0, .7);
+    border: 1px solid black;
+}
+/* GENERALI */
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+
+    background-color: #FFFFFF;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+/* HEADER */
+
+
+header nav.nav-left{
+    padding: 10px;
+    display: flex;
+}
+header nav.nav-right{
+    padding: 10px;
+    display: flex;
+}
+
+header ul{
+    margin-left: 40px;
+    display: flex;
+    list-style: none;
+}
+header ul li{
+    margin-right: 45px;
+}
+header ul li a{
+
+    text-decoration: none;
+}
+
+/* JUMBOTRON */
+
+.jumbotron{
+    background-color: #B4D0E7;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1400px;
+}
