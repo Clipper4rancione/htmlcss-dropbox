@@ -28,7 +28,7 @@ header{
 }
 
 .container{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -61,10 +61,37 @@ header ul li a{
 /* JUMBOTRON */
 
 .jumbotron{
+    display: flex;
+    position: relative;
     background-color: #B4D0E7;
-    height: 740px;
+    height: 700px;
+}
+.jumbotron .container{
+    display: flex;
+    justify-content: center;
+}
+.jumbotron .container .jumbo-text{
+    margin-top: 105px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.jumbotron .container .jumbo-text h1{
+    font-size: 4.5rem;
+    font-weight: 800;
+}
+.jumbotron .container .jumbo-text p{
+    text-align: start;
+    
 }
 
+.jumbotron .container img{
+    width: 800px;
+    position: absolute;
+    top:350px;
+    right: 170px;
+
+}
 main{
     padding: 80px 0px 0px 0px;
 }
