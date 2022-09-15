@@ -27,8 +27,18 @@ header{
     background-color: #FFFFFF;
 }
 
+a{
+    text-decoration: none;
+}
+
+.btn-blue{
+    padding: 10px 15px;
+    color: white;
+    background-color: #0061FF;
+}
+
 .container{
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -51,7 +61,7 @@ header ul{
     list-style: none;
 }
 header ul li{
-    margin-right: 45px;
+    margin-right: 30px;
 }
 header ul li a{
 
@@ -62,42 +72,49 @@ header ul li a{
 
 .jumbotron{
     display: flex;
-    position: relative;
+    justify-content: center;
+    /* position: relative; */
     background-color: #B4D0E7;
     height: 700px;
 }
 .jumbotron .container{
     display: flex;
-    justify-content: center;
-}
-.jumbotron .container .jumbo-text{
-    margin-top: 105px;
-    display: flex;
-    justify-content: flex-start;
     flex-direction: column;
+    align-items: flex-start;
 }
-.jumbotron .container .jumbo-text h1{
-    font-size: 4.5rem;
+
+.jumbotron .container .jumbo-text{
+   width: 30%;
+   margin-top: 70px;
+   
+}
+.jumbotron .container h1{
+    width: 80%;
+    margin-top: 90px;
+    text-align: start;
+    font-size: 4rem;
     font-weight: 800;
 }
-.jumbotron .container .jumbo-text p{
-    text-align: start;
+.jumbotron .container .img img{
+   width: 800px;
+   position: absolute;
+   top: 400px;
+   right: 400px;
+
+}
+
+.jumbotron .container .btn-blue{
+    margin: 35px 0;
+    
     
 }
 
-.jumbotron .container img{
-    width: 800px;
-    position: absolute;
-    top:350px;
-    right: 170px;
-
-}
 main{
     padding: 80px 0px 0px 0px;
 }
-main::before{
+/* main::before{
     content: '';
     display: block;
     height: 80px;
     margin: -80px 0 0;
-}
+} */
