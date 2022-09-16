@@ -24,6 +24,7 @@ header{
     height: 80px;
     width: 100%;
 
+    z-index: 999;
     background-color: #FFFFFF;
 }
 
@@ -38,7 +39,7 @@ a{
 }
 
 .container{
-    width: 70%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -71,13 +72,16 @@ header ul li a{
 /* JUMBOTRON */
 
 .jumbotron{
+    width: 100%;
     display: flex;
     justify-content: center;
-    /* position: relative; */
+    position: relative;
     background-color: #B4D0E7;
     height: 700px;
 }
 .jumbotron .container{
+    width: 70%;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -88,18 +92,24 @@ header ul li a{
    margin-top: 70px;
    
 }
-.jumbotron .container h1{
+.jumbotron .container .title{
+    width: 100%;
+}
+.jumbotron .container .title h1{
     width: 80%;
     margin-top: 90px;
     text-align: start;
     font-size: 4rem;
     font-weight: 800;
 }
+.jumbotron .container .img{
+    width: 30%;
+}
 .jumbotron .container .img img{
-   width: 800px;
-   position: absolute;
-   top: 400px;
-   right: 400px;
+    width: 850px;
+    position: absolute;
+    top: 300px;
+    right: 300px;
 
 }
 
@@ -109,12 +119,34 @@ header ul li a{
     
 }
 
+.jumbotron i{
+    font-size: 2.5rem;
+
+    margin-top: 90px;
+}
+
+/* MAIN */
+
 main{
     padding: 80px 0px 0px 0px;
 }
-/* main::before{
-    content: '';
-    display: block;
-    height: 80px;
-    margin: -80px 0 0;
-} */
+
+.container.c-plans{
+    display: flex;
+    justify-content: flex-start;
+    width: 60%;
+    margin: 0 auto;
+
+    /* DA TOGLIERE */
+    height: 700px;
+}
+
+.plans .plans-h2{
+    margin-top: 160px;
+    margin-bottom: 65px;
+    font-size: 1.4rem;
+}
+.plans .fatturazione span{
+    margin-right: 50px;
+}
+
