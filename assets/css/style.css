@@ -79,41 +79,41 @@ header ul li a{
     background-color: #B4D0E7;
     height: 700px;
 }
-.jumbotron .container{
-    width: 70%;
+.jumbotron .container.c-jumbo{
+    width: 80%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
-.jumbotron .container .jumbo-text{
+.jumbotron .container.c-jumbo .jumbo-text{
    width: 30%;
    margin-top: 70px;
    
 }
-.jumbotron .container .title{
+.jumbotron .container.c-jumbo .title{
     width: 100%;
 }
-.jumbotron .container .title h1{
+.jumbotron .container.c-jumbo .title h1{
     width: 80%;
     margin-top: 90px;
     text-align: start;
     font-size: 4rem;
     font-weight: 800;
 }
-.jumbotron .container .img{
+.jumbotron .container.c-jumbo .img{
     width: 30%;
 }
-.jumbotron .container .img img{
+.jumbotron .container.c-jumbo .img img{
     width: 850px;
     position: absolute;
     top: 300px;
-    right: 300px;
+    right: 200px;
 
 }
 
-.jumbotron .container .btn-blue{
+.jumbotron .container.c-jumbo .btn-blue{
     margin: 35px 0;
     
     
@@ -133,12 +133,13 @@ main{
 
 .container.c-plans{
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
     width: 60%;
     margin: 0 auto;
 
     /* DA TOGLIERE */
-    height: 700px;
+
 }
 
 .plans .plans-h2{
@@ -146,7 +147,46 @@ main{
     margin-bottom: 65px;
     font-size: 1.4rem;
 }
-.plans .fatturazione span{
-    margin-right: 50px;
+.plans .container.c-plans div.fatturazione{
+    margin-bottom: 50px;
 }
 
+.plans .row{
+    display: flex;
+}
+.tab{
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 2);
+    padding: 10px;
+    border: 1px solid gray;
+}
+.tab .tab-top{
+    text-align: center;
+    padding: 5px;
+    border-bottom: 1px solid gray;
+}
+.tab .tab-mid{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.tab .tab-bot{
+    margin-top: 50px;
+}
+.tab .tab-mid span.price{
+    display: block;
+    margin: 20px 0;
+    font-size: .9rem;
+    font-weight: 600;
+}
+.tab ul{
+    list-style: none;
+    margin-top: 50px;
+}
+.tab ul li{
+    margin-top: 30px;
+}
+.tab div.btn-blue{
+    margin: 50px 0;
+}
