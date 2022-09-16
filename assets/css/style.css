@@ -33,6 +33,7 @@ a{
 }
 
 .btn-blue{
+    text-align: center;
     padding: 10px 15px;
     color: white;
     background-color: #0061FF;
@@ -137,9 +138,6 @@ main{
     align-items: flex-start;
     width: 60%;
     margin: 0 auto;
-
-    /* DA TOGLIERE */
-
 }
 
 .plans .plans-h2{
@@ -150,15 +148,26 @@ main{
 .plans .container.c-plans div.fatturazione{
     margin-bottom: 50px;
 }
+.plans .container.c-plans div.fatturazione span{
+    margin-right: 50px;
+}
+.plans .container.c-plans div.fatturazione span::before{
+    content: '\1F518';
+}
 
-.plans .row{
+.plans .container.c-plans .row{
+    width: 100%;
     display: flex;
+    justify-content: space-between;
+}
+.plans .container.c-plans .col{
+    width: calc(100% / 3);
 }
 .tab{
     display: flex;
     flex-direction: column;
-    width: calc(100% / 2);
-    padding: 10px;
+    width: 85%;
+    padding: 10px 20px 60px 20px;
     border: 1px solid gray;
 }
 .tab .tab-top{
@@ -168,10 +177,15 @@ main{
 }
 .tab .tab-mid{
     display: flex;
+    padding: 15px 0px;
+
     flex-direction: column;
     justify-content: space-between;
+    border-bottom: 1px solid gray;
 }
 .tab .tab-bot{
+    display: flex;
+    flex-direction: column;
     margin-top: 50px;
 }
 .tab .tab-mid span.price{
@@ -182,7 +196,7 @@ main{
 }
 .tab ul{
     list-style: none;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 .tab ul li{
     margin-top: 30px;
