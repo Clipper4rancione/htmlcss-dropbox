@@ -34,7 +34,9 @@ a{
 
 .btn-blue{
     text-align: center;
-    padding: 10px 15px;
+
+    font-size: .9rem;
+    padding: 10px 10px;
     color: white;
     background-color: #0061FF;
 }
@@ -135,7 +137,6 @@ main{
 .container.c-plans{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     width: 60%;
     margin: 0 auto;
 }
@@ -166,13 +167,16 @@ main{
 .tab{
     display: flex;
     flex-direction: column;
-    width: 85%;
-    padding: 10px 20px 60px 20px;
+    width: 90%;
+    height: 100%;
+    padding: 20px 10px;
     border: 1px solid gray;
 }
 .tab .tab-top{
-    text-align: center;
-    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px;
     border-bottom: 1px solid gray;
 }
 .tab .tab-mid{
@@ -188,19 +192,64 @@ main{
     flex-direction: column;
     margin-top: 50px;
 }
+
+.tab .tab-mid h2{
+    margin-top: 10px;
+    font-size: 1.4rem;
+}
 .tab .tab-mid span.price{
     display: block;
     margin: 20px 0;
     font-size: .9rem;
     font-weight: 600;
 }
+.tab .tab-mid span.period{
+    color: gray;
+}
 .tab ul{
     list-style: none;
-    margin-top: 40px;
 }
 .tab ul li{
-    margin-top: 30px;
+    font-size: 1rem;
+    margin-top: 25px;
 }
-.tab div.btn-blue{
+/* .tab ul li.list-folder::before{
+    
+} */
+
+.tab div.btn-blue.vertical{
     margin: 50px 0;
+}
+
+
+.container.c-plans 
+div.col.enterprise{
+    width: 100%;
+    margin-top: 52px;
+}
+.container.c-plans 
+div.col.enterprise .tab.enterprise{
+    width: 96.6%;
+    border: 1px solid grey;
+}
+.container.c-plans 
+div.col.enterprise .tab-mid.enterprise{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: none;
+}
+
+.container.c-plans 
+div.col.enterprise .tab-mid.enterprise .e-plan-left{
+    width: 70%;
+}
+.container.c-plans 
+div.col.enterprise .tab-mid.enterprise h2{
+    margin-bottom: 15px;
+}
+.container.c-plans 
+div.col.enterprise .tab-mid.enterprise p{
+    margin-top: 55px;
 }
