@@ -278,19 +278,20 @@ section.little-container.find-partner{
     justify-content: space-around;
 }
 .partner-img{
-    width: 67%;
-    margin-right: 20px;
+    width: 69%;
+    margin-right: 50px;
 }
 .partner-img img{
     width: 100%;
 }
 .partner-text{
     display: flex;
-    width: 33%;
+    width: 31%;
     flex-direction: column;
     justify-content: center;
 }
 .partner-text h3{
+    font-size: 1.7rem;
     margin-bottom: 20px;
 }
 .partner-text p{
@@ -298,4 +299,37 @@ section.little-container.find-partner{
 }
 .btn-white.partner{
     border: 1px solid black;
+}
+
+/* SEZIONE DB BUSINESS CON CARD */
+
+.little-container.db-business{
+    width: 60%;
+    padding: 20px;
+}
+.little-container.db-business h2{
+    font-size: 2rem;
+    margin-top: 160px;
+}
+.little-container.db-business .row{
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.little-container.db-business .row .db-card{
+    width: calc(100% / 3);
+    padding: 20px;
+}
+.little-container.db-business .row .db-card h3{
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+.little-container.db-business .row .db-card p{
+    font-size: .9rem;
+    line-height: 20px;
+}
+.little-container.db-business .row .db-card .db-img img{
+    width: 100%;
+    margin: 30px 0px 20px 0px;
 }
