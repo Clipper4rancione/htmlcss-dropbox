@@ -49,7 +49,7 @@ a{
 }
 
 .little-container{
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -319,7 +319,6 @@ section.little-container.find-partner{
 }
 .little-container.db-business .row .db-card{
     width: calc(100% / 3);
-    padding: 20px;
 }
 .little-container.db-business .row .db-card h3{
     font-size: 1.4rem;
@@ -332,4 +331,27 @@ section.little-container.find-partner{
 .little-container.db-business .row .db-card .db-img img{
     width: 100%;
     margin: 30px 0px 20px 0px;
+}
+
+/* SEZIONE SQUARES CON SPONSOR */
+
+/* TITOLO CON READ MORE */
+section.sponsor{
+    margin-top: 150px;
+}
+
+section.sponsor .little-container{
+    padding: 20px;
+}
+section.sponsor .little-container .read-more{
+    width: 50%;
+}
+section.sponsor .little-container h2{
+    font-size: 2rem;
+    margin-bottom: 80px;
+}
+section.sponsor .little-container a{
+    text-decoration: underline;
+    margin-bottom: 150px;
+    color: blue;
 }
