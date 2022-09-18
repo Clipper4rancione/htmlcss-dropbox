@@ -305,7 +305,7 @@ section.little-container.find-partner{
 
 .little-container.db-business{
     width: 60%;
-    padding: 20px;
+    padding: 40px;
 }
 .little-container.db-business h2{
     font-size: 2rem;
@@ -314,11 +314,13 @@ section.little-container.find-partner{
 .little-container.db-business .row{
     width: 100%;
     margin-top: 80px;
+    padding: 20px;
     display: flex;
     flex-wrap: wrap;
 }
 .little-container.db-business .row .db-card{
     width: calc(100% / 3);
+    padding: 20px;
 }
 .little-container.db-business .row .db-card h3{
     font-size: 1.4rem;
@@ -354,4 +356,38 @@ section.sponsor .little-container a{
     text-decoration: underline;
     margin-bottom: 150px;
     color: blue;
+}
+
+
+
+
+
+
+/* FOOTER */
+
+footer{
+    margin-top: 70px;
+    width: 100%;
+    height: 450px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    
+}
+footer .container.c-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 100px auto;
+}
+footer .container.c-footer .col-footer ul{
+    margin-top: 20px;
+    list-style: none;
+}
+footer .container.c-footer .col-footer ul li{
+    font-size: .9rem;
+    line-height: 30px;
+}
+footer .container.c-footer .col-footer ul a{
+    color: white;
 }
