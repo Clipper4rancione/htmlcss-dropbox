@@ -40,6 +40,18 @@ a{
     color: white;
     background-color: #0061FF;
 }
+.btn-white{
+    text-align: center;
+
+    font-size: .9rem;
+    padding: 10px 10px;
+    background-color: white;
+}
+
+.little-container{
+    width: 70%;
+    margin: 0 auto;
+}
 
 .container{
     width: 90%;
@@ -134,7 +146,7 @@ main{
     padding: 80px 0px 0px 0px;
 }
 
-.container.c-plans{
+.little-container.c-plans{
     display: flex;
     flex-direction: column;
     width: 60%;
@@ -146,30 +158,32 @@ main{
     margin-bottom: 65px;
     font-size: 1.4rem;
 }
-.plans .container.c-plans div.fatturazione{
+.plans .little-container.c-plans div.fatturazione{
     margin-bottom: 50px;
 }
-.plans .container.c-plans div.fatturazione span{
+.plans .little-container.c-plans div.fatturazione span{
     margin-right: 50px;
 }
-.plans .container.c-plans div.fatturazione span::before{
+.plans .little-container.c-plans div.fatturazione span::before{
     content: '\1F518';
 }
 
-.plans .container.c-plans .row{
+.plans .little-container.c-plans .row{
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
-.plans .container.c-plans .col{
+.plans .little-container.c-plans .col{
     width: calc(100% / 3);
+    max-width: 1200px;
+    padding: 20px;
 }
 .tab{
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
     height: 100%;
-    padding: 20px 10px;
+    padding: 10px 10px;
     border: 1px solid gray;
 }
 .tab .tab-top{
@@ -222,17 +236,17 @@ main{
 }
 
 
-.container.c-plans 
+.little-container.c-plans 
 div.col.enterprise{
     width: 100%;
-    margin-top: 52px;
 }
-.container.c-plans 
+.little-container.c-plans 
 div.col.enterprise .tab.enterprise{
-    width: 96.6%;
+    width: 100%;
+    margin-bottom: 130px;
     border: 1px solid grey;
 }
-.container.c-plans 
+.little-container.c-plans 
 div.col.enterprise .tab-mid.enterprise{
     display: flex;
     flex-direction: row;
@@ -241,15 +255,47 @@ div.col.enterprise .tab-mid.enterprise{
     border: none;
 }
 
-.container.c-plans 
+.little-container.c-plans 
 div.col.enterprise .tab-mid.enterprise .e-plan-left{
     width: 70%;
 }
-.container.c-plans 
+.little-container.c-plans 
 div.col.enterprise .tab-mid.enterprise h2{
     margin-bottom: 15px;
 }
-.container.c-plans 
+.little-container.c-plans 
 div.col.enterprise .tab-mid.enterprise p{
     margin-top: 55px;
+}
+
+/* SEZIONE TROVA PARTNER */
+
+section.little-container.find-partner{
+    width: 60%;
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.partner-img{
+    width: 67%;
+    margin-right: 20px;
+}
+.partner-img img{
+    width: 100%;
+}
+.partner-text{
+    display: flex;
+    width: 33%;
+    flex-direction: column;
+    justify-content: center;
+}
+.partner-text h3{
+    margin-bottom: 20px;
+}
+.partner-text p{
+    margin-bottom: 30px;
+}
+.btn-white.partner{
+    border: 1px solid black;
 }
