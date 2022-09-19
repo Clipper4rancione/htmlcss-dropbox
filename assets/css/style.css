@@ -202,10 +202,19 @@ main{
     border-bottom: 1px solid gray;
 }
 .tab .tab-bot{
+    height: 100%;
     display: flex;
     padding: 30px;
     flex-direction: column;
+    align-items: flex-start;
     margin-top: 50px;
+}
+.tab .tab-bot h4{
+    margin-bottom: 20px;
+}
+.tab .tab-bot ul li:before{
+    font-family: 'Font Awesome 6 Free';
+    content: '\f00c';
 }
 
 .tab .tab-mid h2{
@@ -234,7 +243,8 @@ main{
     margin-top: 15px;
 }
 /* .tab ul li.list-folder::before{
-    
+    font-family: 'Font Awesome 6 Free';
+    content: '\f07b';
 } */
 
 .tab div.btn-blue.vertical{
