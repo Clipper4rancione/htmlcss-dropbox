@@ -67,7 +67,9 @@ a{
     margin: 0 auto;
 }
 
-
+.active{
+    border: 15px solid rgba(209, 233, 205, 2.5);
+}
 /* HEADER */
 
 
