@@ -358,10 +358,44 @@ section.sponsor .little-container a{
     color: blue;
 }
 
+/* SPONSORS */
+
+section.sponsor .container.big{
+    display: flex;
+    width: 100%;
+}
+section.sponsor .container.big .col-big{
+    display: flex;
+
+    width: calc(100% / 3);
+}
 
 
 
+section.sponsor .container.big .col-sponsor .square{
+    width: 317px;
+    height: 317px;
 
+    border: 1px solid black;
+}
+
+/* SQUARES */
+
+.square.green{
+    background-color: yellowgreen;
+}
+
+.square.red{
+    background-color: red;
+}
+
+.col-big .col-big-square .big-square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+}
 
 /* FOOTER */
 
