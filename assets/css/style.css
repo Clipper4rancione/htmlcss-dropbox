@@ -452,6 +452,30 @@ section.sponsor .container.big .col-big .col-sponsor .square{
     filter: invert(100%);
 }
 
+/* SEZIONE CALL TO ACTION */
+
+.cta-container{
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #B4D0E7;
+
+}
+.cta-container .little-container.cta{
+    display: flex;
+    padding: 40px;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.cta-container .little-container.cta .cta-text{
+    width: 50%;
+}
+.cta-container .little-container.cta .cta-btn{
+padding: 0px 70px;
+}
 /* FOOTER */
 
 footer{
