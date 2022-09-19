@@ -40,7 +40,10 @@ hr.line{
 a{
     text-decoration: none;
 }
-
+.btn-blue:hover{
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 3px 5px 15px rgba(209, 233, 205, 2.5);
+}
 .btn-blue{
     text-align: center;
 
@@ -74,21 +77,44 @@ a{
 
 
 header nav.nav-left{
-    padding: 10px;
+    cursor: pointer;
+    padding: 0px 10px;
     display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 header nav.nav-right{
-    padding: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    cursor: pointer;
+    padding: 0px 10px;
     display: flex;
 }
 
+header ul li:hover{
+    border-bottom: 2px solid black;
+}
+
 header ul{
+    height: 100%;
     margin-left: 40px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     list-style: none;
 }
 header ul li{
+    height: 100%;
     margin-right: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 header ul li a{
 
