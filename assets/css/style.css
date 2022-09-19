@@ -490,22 +490,40 @@ section.faq .little-container.c-faq{
     padding: 40px;
     margin: 0 auto;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: flex-start;
 }
+section.faq .little-container.c-faq .faq-title{
+    margin-bottom: 20px;
+    padding: 20px 0px;
+    
+    
+}
+section.faq .little-container.c-faq .faq-title h2{
+    font-size: 2.3rem;
+    
+}
+
 section.faq .little-container.c-faq .faqs{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 0px;
+    border-bottom: 1px solid #A4A4A4;
+}
+
+section.faq .little-container.c-faq .faqs.first{
+    border-top: 1px solid #A4A4A4;
 }
 section.faq .little-container.c-faq .faqs p{
     display: inline-block;
+    font-weight: 600;
     margin: 30px 0px;
+    
+    
 }
-/* section.faq .little-container.c-faq .faqs p::after{
-    font-family: 'Font Awesome 6 Free';
-    content: '\f078';
-} */
+
+
 /* FOOTER */
 
 footer{
