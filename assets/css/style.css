@@ -10,6 +10,9 @@
     border: 1px solid black;
 }
 /* GENERALI */
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     font-family: Arial, Helvetica, sans-serif;
@@ -176,7 +179,10 @@ header ul li a{
 
     margin-top: 90px;
 }
-
+.jumbotron a i{
+    text-decoration: none;
+    color: black;
+}
 /* MAIN */
 
 main{
@@ -221,14 +227,14 @@ main{
     flex-direction: column;
     width: 100%;
     height: 100%;
-    border: 1px solid gray;
+    border: 1px solid lightgray;
 }
 .tab .tab-top{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 15px 0px;
-    border-bottom: 1px solid gray;
+    border-bottom: .5px solid lightgray;
 }
 .tab .tab-mid{
     display: flex;
@@ -236,7 +242,6 @@ main{
 
     flex-direction: column;
     justify-content: space-between;
-    /* border-bottom: 1px solid gray; */
 }
 .tab .tab-bot{
     height: 100%;
@@ -252,6 +257,9 @@ main{
 .tab .tab-bot ul li:before{
     font-family: 'Font Awesome 6 Free';
     content: '\f00c';
+    font-weight: 600;
+    margin-right: 10px;
+    color: #0093CE;
 }
 
 .tab .tab-mid h2{
@@ -297,7 +305,7 @@ div.col.enterprise{
 div.col.enterprise .tab.enterprise{
     width: 100%;
     margin-bottom: 130px;
-    border: 1px solid grey;
+    border: .5px solid lightgrey;
 }
 .little-container.c-plans 
 div.col.enterprise .tab-mid.enterprise{
@@ -396,6 +404,7 @@ section.sponsor{
 }
 
 section.sponsor .little-container{
+    margin: 0 auto;
     padding: 20px;
 }
 section.sponsor .little-container .read-more{
@@ -442,6 +451,9 @@ section.sponsor .container.big .col-big .col-sponsor .square{
     aspect-ratio: 1/1;
 }
 
+.square:active{
+    border: 10px solid rgba(255, 255, 255, .6);
+}
 /* SQUARES */
 
 .square.green{
